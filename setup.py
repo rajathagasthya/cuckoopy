@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from cuckoopy import __version__, __author__
 try:
@@ -28,9 +28,9 @@ setup(name='cuckoopy',
           'Natural Language :: English',
           'License :: OSI Approved :: MIT License',
           'Programming Language :: Python',
-          'Programming Language :: Python :: 2.7'
+          'Programming Language :: Python :: 3.6'
       ],
       extras_require={
           'test': ['pytest'],
       }
-)
+      )
