@@ -3,7 +3,6 @@ Cuckoo Filter
 """
 
 import random
-from pprint import pprint
 
 from . import bucket
 from . import exceptions
@@ -115,6 +114,3 @@ class CuckooFilter(object):
             self.size -= 1
             return True
         return False
-
-    def _print_filter(self):
-        pprint(self.buckets)
