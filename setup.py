@@ -2,7 +2,7 @@
 
 from cuckoopy import __version__, __author__
 try:
-    from setuptools import setup, find_packages
+    from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
@@ -18,9 +18,9 @@ setup(name='cuckoopy',
       long_description=readme,
       author=__author__,
       author_email='rajathagasthya@gmail.com',
-      url='https://github.com/rajathagasthya/cuckoo-py',
+      url='https://github.com/rajathagasthya/cuckoopy',
       license=license,
-      packages=find_packages(exclude=['tests']),
+      packages=['cuckoopy'],
       install_requires=[],
       classifiers=[
           'Development Status :: 3 - Alpha',
@@ -28,9 +28,8 @@ setup(name='cuckoopy',
           'Natural Language :: English',
           'License :: OSI Approved :: MIT License',
           'Programming Language :: Python',
-          'Programming Language :: Python :: 3.5'
+          'Programming Language :: Python :: 3',
+          'Programming Language :: Python :: 3.5',
+          'Programming Language :: Python :: 3.6'
       ],
-      extras_require={
-          'test': ['pytest'],
-      }
-      )
+)
