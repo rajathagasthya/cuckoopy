@@ -18,7 +18,7 @@ def test_insert_bucket_full(bucket):
     assert not bucket.insert('fake_value2')
 
 
-def test_bucket_is_full(bucket):
+def test_bucket_full(bucket):
     for i in range(bucket.size):
         bucket.insert('fake_value')
     assert bucket.is_full()
@@ -41,4 +41,9 @@ def test_bucket_contains(bucket):
 
 
 def test_swap(bucket):
-    pass
+    fake_value = 'fake_value'
+    fake_swap_value = 'fake_swap_value'
+    bucket.insert(fake_value)
+    swapped_item = bucket.swap(fake_swap_value)
+    assert fake_swap_value in bucket
+    assert swapped_item == fake_value
