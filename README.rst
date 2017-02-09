@@ -1,6 +1,18 @@
 cuckoopy: Pure Python implementation of Cuckoo Filter
 =====================================================
 
+.. image:: https://img.shields.io/pypi/v/cuckoopy.svg
+    :target: https://pypi.python.org/pypi/cuckoopy
+
+.. image:: https://img.shields.io/pypi/l/cuckoopy.svg
+    :target: https://pypi.python.org/pypi/cuckoopy
+
+.. image:: https://img.shields.io/pypi/wheel/cuckoopy.svg
+    :target: https://pypi.python.org/pypi/cuckoopy
+
+.. image:: https://img.shields.io/pypi/pyversions/cuckoopy.svg
+    :target: https://pypi.python.org/pypi/cuckoopy
+
 .. image:: https://travis-ci.org/rajathagasthya/cuckoopy.svg?branch=master
     :target: https://travis-ci.org/rajathagasthya/cuckoopy
 

@@ -9,9 +9,6 @@ except ImportError:
 with open('README.rst') as f:
         readme = f.read()
 
-with open('LICENSE') as f:
-        license = f.read()
-
 setup(name='cuckoopy',
       version=__version__,
       description='Cuckoo Filter implementation in Python',
@@ -19,7 +16,7 @@ setup(name='cuckoopy',
       author=__author__,
       author_email='rajathagasthya@gmail.com',
       url='https://github.com/rajathagasthya/cuckoopy',
-      license=license,
+      license='MIT',
       packages=['cuckoopy'],
       install_requires=[],
       classifiers=[
