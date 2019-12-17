@@ -1,3 +1,8 @@
+Notice
+======
+
+**This repository is no longer maintained.**
+
 cuckoopy: Pure Python implementation of Cuckoo Filter
 =====================================================
 
